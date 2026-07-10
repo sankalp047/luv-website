@@ -69,37 +69,15 @@ const SOCIALS = [
 */
 const SHOWS = [
   {
-    id: 1,
-    title: "The Morning Show",
-    presenter: "Kitch",
-    withLine: "with Kitch",
-    time: "6AM – 10AM",
-    days: "Weekdays",
-    tagline: "Smart. Funny. Effortlessly engaging.",
-    desc: "Wake up with Kitch. Quick-witted, relatable and full of chatter. Blending today's biggest Adult Contemporary hits with easy conversation — entertainment, culture, sports and stories that everyone's talking about.",
-    image: "/presenters/kitch.jpg",
-  },
-  {
-    id: 2,
-    title: "With Luv From Reine",
-    presenter: "Reine",
-    withLine: "with Reine",
-    time: "10AM – 2PM",
-    days: "Weekdays",
-    tagline: "Stylish. Confident. Relatable.",
-    desc: "Spend your midday with Reine — fun, engaging and full of the latest goss. The best of Adult Contemporary hits with feel-good throwbacks, conversations on modern life, relationships, culture and the moments listeners connect with.",
-    image: "/presenters/reine.jpg",
-  },
-  {
     id: 3,
     title: "Luv The Drive",
-    presenter: "Edi & Sheron",
-    withLine: "with Edi & Sheron",
+    presenter: "Edi",
+    withLine: "with Edi",
     time: "4PM – 8PM",
     days: "Weekdays",
     tagline: "Your perfect after-work soundtrack.",
-    desc: "Turn the evening commute into the best part of the day with Edi and Sheron. Great music, humour and conversations — today's biggest hits, pop favourites and timeless throwbacks.",
-    image: "/presenters/edi-sheron.jpg",
+    desc: "Turn the evening commute into the best part of the day with Edi. Great music, humour and conversations — today's biggest hits, pop favourites and timeless throwbacks.",
+    image: "/presenters/edi.jpg",
   },
 ];
 
@@ -874,7 +852,7 @@ export default function LuvRadio() {
           <ShowsSection />
 
           <div style={{ background: C.deep, padding: "10px 0" }}>
-            <Marquee text="KITCH · REINE · EDI & SHERON · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
+            <Marquee text="EDI · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
             <Marquee text="FEEL THE FREQUENCY · "            bg={C.red}  color="#fff"   fontSize="clamp(28px,5vw,64px)" direction="left"  angle="-1.5deg" speed="25s" />
           </div>
 
