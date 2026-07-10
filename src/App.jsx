@@ -77,7 +77,7 @@ const SHOWS = [
     days: "Weekdays",
     tagline: "Your perfect after-work soundtrack.",
     desc: "Turn the evening commute into the best part of the day with Edi. Great music, humour and conversations — today's biggest hits, pop favourites and timeless throwbacks.",
-    image: "/presenters/edi.jpg",
+    image: "/presenters/edi.png",
   },
 ];
 
