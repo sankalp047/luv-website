@@ -70,13 +70,13 @@ const SOCIALS = [
 const SHOWS = [
   {
     id: 3,
-    title: "Luv The Drive",
+    title: "The Morning Show",
     presenter: "Edi",
     withLine: "with Edi",
-    time: "4PM – 8PM",
+    time: "6AM – 10AM",
     days: "Weekdays",
-    tagline: "Your perfect after-work soundtrack.",
-    desc: "Turn the evening commute into the best part of the day with Edi. Great music, humour and conversations — today's biggest hits, pop favourites and timeless throwbacks.",
+    tagline: "Smart. Funny. Effortlessly engaging.",
+    desc: "Wake up with Edi. Quick-witted, relatable and full of chatter. Blending today's biggest Adult Contemporary hits with easy conversation — entertainment, culture, sports and stories that everyone's talking about.",
     image: "/presenters/edi.png",
   },
 ];
