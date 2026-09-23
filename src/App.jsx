@@ -71,13 +71,13 @@ const SHOWS = [
   {
     id: 3,
     title: "The Morning Show",
-    presenter: "Edi",
-    withLine: "with Edi",
+    presenter: "Keegan Basil",
+    withLine: "with Keegan",
     time: "6AM – 10AM",
     days: "Weekdays",
-    tagline: "Smart. Funny. Effortlessly engaging.",
-    desc: "Wake up with Edi. Quick-witted, relatable and full of chatter. Blending today's biggest Adult Contemporary hits with easy conversation — entertainment, culture, sports and stories that everyone's talking about.",
-    image: "/presenters/edi.png",
+    tagline: "Energy. Humour. Great music.",
+    desc: "Keegan Basil is back on the airwaves, bringing his energy, humour and love for great music back to LUV 107.1. A South African broadcaster based in Dubai, Keegan mixes the biggest hits of the 80s, 90s and 2000s with what you're loving right now — plus stories and a little bit of chaos along the way.",
+    image: "/presenters/keegan.jpg",
   },
 ];
 
@@ -852,7 +852,7 @@ export default function LuvRadio() {
           <ShowsSection />
 
           <div style={{ background: C.deep, padding: "10px 0" }}>
-            <Marquee text="EDI · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
+            <Marquee text="KEEGAN · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
             <Marquee text="FEEL THE FREQUENCY · "            bg={C.red}  color="#fff"   fontSize="clamp(28px,5vw,64px)" direction="left"  angle="-1.5deg" speed="25s" />
           </div>
 
