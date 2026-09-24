@@ -76,7 +76,7 @@ const SHOWS = [
     time: "6AM – 10AM",
     days: "Weekdays",
     tagline: "Energy. Humour. Great music.",
-    desc: "Keegan Basil is back on the airwaves, bringing his energy, humour and love for great music back to LUV 107.1. A South African broadcaster based in Dubai, Keegan mixes the biggest hits of the 80s, 90s and 2000s with what you're loving right now — plus stories and a little bit of chaos along the way.",
+    desc: "Keegan Basil is back on the airwaves, bringing his energy, humour and love for great music back to LUV 107.1. A South African broadcaster based in Dubai, Keegan has spent years behind the microphone connecting with listeners through music, stories, conversations and a little bit of chaos along the way. With a strong focus on CHR music, Keegan's mornings are all about starting your day with the right soundtrack, a good laugh and stories that make you feel part of the show.",
     image: "/presenters/keegan.jpg",
   },
 ];
