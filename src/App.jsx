@@ -79,6 +79,17 @@ const SHOWS = [
     desc: "Keegan Basil is back on the airwaves, bringing his energy, humour and love for great music back to LUV 107.1. A South African broadcaster based in Dubai, Keegan has spent years behind the microphone connecting with listeners through music, stories, conversations and a little bit of chaos along the way. With a strong focus on CHR music, Keegan's mornings are all about starting your day with the right soundtrack, a good laugh and stories that make you feel part of the show.",
     image: "/presenters/keegan.jpg",
   },
+  {
+    id: 4,
+    title: "LUV The Drive",
+    presenter: "Rich",
+    withLine: "with Rich",
+    time: "4PM – 7PM",
+    days: "Monday to Friday",
+    tagline: "Great music. Good conversation. Even better company.",
+    desc: "Rich brings a warm welcome, a cheeky sense of humour and years of UAE radio experience to LUV 107.1. An Irish presenter and chef who has called Dubai home for more than two decades, he's equally at home behind the microphone and in the kitchen.\n\nJoin him on LUV The Drive with Rich for today's hits, familiar favourites and warm, entertaining conversations that could go anywhere — from everyday life in the UAE and entertainment news to food, films and weekend plans. Expect a little mischief, plenty of music, useful traffic and travel updates, and his daily Deep Thought.\n\nWhether you're heading home, wrapping up work or getting your evening started, Rich is here to make the journey more enjoyable with great music, good conversation and even better company.",
+    image: "/presenters/rich.jpg",
+  },
 ];
 
 
@@ -539,7 +550,7 @@ function ShowCard({ show, index }) {
       <div style={{ fontFamily: "'Caveat', cursive", fontSize: mobile ? "20px" : "clamp(24px,3.5vw,34px)", fontWeight: 700, color: textCol, marginBottom: mobile ? 14 : 20, marginTop: 4 }}>
         {show.withLine}
       </div>
-      <p style={{ fontFamily: "'Special Elite', monospace", fontSize: mobile ? "13px" : "clamp(13px,1.3vw,15px)", color: subCol, lineHeight: 1.9, maxWidth: 520, letterSpacing: ".03em" }}>
+      <p style={{ fontFamily: "'Special Elite', monospace", fontSize: mobile ? "13px" : "clamp(13px,1.3vw,15px)", color: subCol, lineHeight: 1.9, maxWidth: 520, letterSpacing: ".03em", whiteSpace: "pre-line" }}>
         {show.desc}
       </p>
       <div style={{
