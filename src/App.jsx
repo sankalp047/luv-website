@@ -863,7 +863,7 @@ export default function LuvRadio() {
           <ShowsSection />
 
           <div style={{ background: C.deep, padding: "10px 0" }}>
-            <Marquee text="KEEGAN · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
+            <Marquee text="KEEGAN · RICH · " bg={C.gold} color={C.deep} fontSize="clamp(24px,4vw,56px)" direction="right" angle="1deg"    speed="30s" />
             <Marquee text="FEEL THE FREQUENCY · "            bg={C.red}  color="#fff"   fontSize="clamp(28px,5vw,64px)" direction="left"  angle="-1.5deg" speed="25s" />
           </div>
 
