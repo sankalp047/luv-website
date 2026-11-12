@@ -364,8 +364,7 @@ function Header({ onMenuOpen, onAuthOpen }) {
   return (
     <header style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, padding: mobile ? "10px 16px" : "14px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", transition: "all .5s", background: scrolled ? "rgba(26,10,10,.95)" : "transparent", backdropFilter: scrolled ? "blur(16px)" : "none" }}>
       <a href="#hero" style={{ display: "flex", alignItems: "center", gap: 8, textDecoration: "none", zIndex: 2 }}>
-        <div style={{ background: C.red, width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Bebas Neue', sans-serif", color: "#fff", fontSize: 12 }}>LUV</div>
-        {!mobile && <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 16, letterSpacing: ".08em", color: C.cream }}>107.1 FM</span>}
+        <img src="/logo.svg" alt="LUV 107.1" style={{ height: mobile ? 36 : 46, width: "auto", display: "block" }} />
       </a>
       <div style={{ display: "flex", gap: mobile ? 6 : 10, alignItems: "center", zIndex: 2 }}>
         <button onClick={onAuthOpen} style={{ background: "none", border: `1px solid ${C.gold}60`, color: C.gold, padding: mobile ? "6px 12px" : "7px 16px", fontFamily: "'Caveat', cursive", fontSize: mobile ? 14 : 16, fontWeight: 700, cursor: "pointer", transform: "rotate(1deg)", display: "flex", alignItems: "center", gap: 6 }}>
@@ -398,7 +397,7 @@ function HeroSection() {
     <section id="hero" style={{ minHeight: "100vh", position: "relative", overflow: "hidden", display: "flex", alignItems: "center", background: C.deep }}>
       {/* Background video */}
       <video autoPlay muted loop playsInline style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 }}>
-        <source src="/hero-bg.mp4" type="video/mp4" />
+        <source src="/hero-bg-clean.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay */}
@@ -805,6 +804,7 @@ function Footer() {
         </div>
 
         <div style={{ textAlign: "center", padding: mobile ? "20px 16px 16px" : "30px 24px 20px", fontFamily: "'Outfit', sans-serif", fontSize: 11, color: "rgba(26,10,10,.5)", marginTop: mobile ? 28 : 40, borderTop: "1px solid rgba(26,10,10,.1)" }}>
+          <a href="#hero" style={{ display: "block", width: "fit-content", margin: "0 auto 14px" }}><img src="/logo.svg" alt="LUV 107.1" style={{ height: mobile ? 48 : 60, width: "auto", display: "block" }} /></a>
           © 2026 LUV 107.1 FM. All rights reserved.
         </div>
       </div>
