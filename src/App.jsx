@@ -397,7 +397,7 @@ function HeroSection() {
     <section id="hero" style={{ minHeight: "100vh", position: "relative", overflow: "hidden", display: "flex", alignItems: "center", background: C.deep }}>
       {/* Background video */}
       <video autoPlay muted loop playsInline style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 }}>
-        <source src="/hero-bg-clean.mp4" type="video/mp4" />
+        <source src="/hero-bg-v2.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay */}
